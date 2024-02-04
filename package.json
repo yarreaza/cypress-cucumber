@@ -1,24 +1,31 @@
 {
-  "name": "proyecto-cypress-cucumber",
+  "name": "cypress-cucumber",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pruebas en login con Cypress + Cucumber",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Yelitza Arreaza",
+  "license": "MIT",
   "devDependencies": {
     "cypress": "^13.6.4",
     "cypress-cucumber-preprocessor": "^4.3.1"
   },
-
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": false,
     "step_definitions": "cypress/e2e/step_definitions",
     "cucumber": {
       "generate": false
     }
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yarreaza/cypress-cucumber.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yarreaza/cypress-cucumber/issues"
+  },
+  "homepage": "https://github.com/yarreaza/cypress-cucumber#readme"
 }
