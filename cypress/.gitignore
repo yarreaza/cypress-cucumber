@@ -1,0 +1,32 @@
+# Estos son algunos ejemplos de patrones de archivos comúnmente ignorados.
+# Debe personalizar esta lista según corresponda a su proyecto.
+# Obtenga más información sobre .gitignore:
+# https://www.atlassian.com/git/tutorials/ Saving-changes/gitignore
+
+# Node artifact files
+node_modules/
+
+# Log files
+*.log
+
+# Package files
+*.jar
+
+# Unit test reports
+TEST*.xml
+
+# Applications
+*.app
+*.exe
+*.war
+
+# Large media files
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+
+# Cucumber Report
+reports
